@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Condition__c</fullName>
+    <description>This field is a picklist having condition operators.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Condition Operator</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>eq</fullName>
+                <default>true</default>
+                <label>Equal</label>
+            </value>
+            <value>
+                <fullName>excludes</fullName>
+                <default>false</default>
+                <label>Excludes</label>
+            </value>
+            <value>
+                <fullName>gt</fullName>
+                <default>false</default>
+                <label>Greater Than</label>
+            </value>
+            <value>
+                <fullName>gte</fullName>
+                <default>false</default>
+                <label>Greater Than Equal To</label>
+            </value>
+            <value>
+                <fullName>in</fullName>
+                <default>false</default>
+                <label>In</label>
+            </value>
+            <value>
+                <fullName>includes</fullName>
+                <default>false</default>
+                <label>Includes</label>
+            </value>
+            <value>
+                <fullName>lt</fullName>
+                <default>false</default>
+                <label>Less Than</label>
+            </value>
+            <value>
+                <fullName>lte</fullName>
+                <default>false</default>
+                <label>Less Than Equal To</label>
+            </value>
+            <value>
+                <fullName>like</fullName>
+                <default>false</default>
+                <label>Like</label>
+            </value>
+            <value>
+                <fullName>ne</fullName>
+                <default>false</default>
+                <label>Not Equal</label>
+            </value>
+            <value>
+                <fullName>nin</fullName>
+                <default>false</default>
+                <label>Not In</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

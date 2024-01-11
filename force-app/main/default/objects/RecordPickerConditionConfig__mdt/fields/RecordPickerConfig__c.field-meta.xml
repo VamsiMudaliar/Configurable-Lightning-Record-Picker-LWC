@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RecordPickerConfig__c</fullName>
+    <description>The Condition Config metadata HAS-A Record Picker Configuration</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Record Picker Config</label>
+    <referenceTo>RecordPickerConfig__mdt</referenceTo>
+    <relationshipLabel>Record Picker Condition Configs</relationshipLabel>
+    <relationshipName>RecordPickerConditionConfigs</relationshipName>
+    <required>false</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>

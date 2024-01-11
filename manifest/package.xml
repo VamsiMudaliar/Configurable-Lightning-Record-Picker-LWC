@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>RecordPickerConditionConfig__mdt.ConditionFieldAPI__c</members>
+		<members>RecordPickerConditionConfig__mdt.ConditionValue__c</members>
+		<members>RecordPickerConditionConfig__mdt.Condition__c</members>
+		<members>RecordPickerConditionConfig__mdt.IsDynamic__c</members>
+		<members>RecordPickerConditionConfig__mdt.IsLiteral__c</members>
+		<members>RecordPickerConditionConfig__mdt.RecordPickerConfig__c</members>
+		<members>RecordPickerConfig__mdt.DisplayFieldName__c</members>
+		<members>RecordPickerConfig__mdt.DisplaySecondaryFields__c</members>
+		<members>RecordPickerConfig__mdt.ObjectAPI__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>RecordPickerConditionConfig__mdt</members>
+		<members>RecordPickerConfig__mdt</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>RecordPickerConditionConfig__mdt-Record Picker Condition Config Layout</members>
+		<members>RecordPickerConfig__mdt-Record Picker Config Layout</members>
+		<name>Layout</name>
+	</types>
+	<types>
+		<members>compUtils</members>
+		<members>dynamicLightningRecordPicker</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<version>53.0</version>
+</Package>

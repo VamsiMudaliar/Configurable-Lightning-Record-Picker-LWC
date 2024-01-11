@@ -1,0 +1,25 @@
+<!--
+  @description       : 
+  @author            : Vamsi Mudaliar
+  @group             : 
+  @last modified on  : 01-10-2024
+  @last modified by  : Vamsi Mudaliar
+-->
+<template>
+
+        <lightning-record-picker
+        lwc:ref="recordPicker"
+        label={label}
+        object-api-name={objectName}
+        placeholder={placeHolder}
+        onchange={handleChange}
+        >
+        <!--
+            These attributes will be set using refs.
+            object-api-name={config.objectName}
+            matching-info={matchingInfo} 
+            display-info={displayInfo}
+            filter={filter} 
+        -->
+        </lightning-record-picker>
+</template>
